@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Olá! Aqui você conhecer minha página e um pouco de mim!</h1>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Olá, eu sou <span class="destaque">Ana Carolina Muniz Soares</span></h2>
+      <p>Desenvolvedor Front-End | Apaixonado por tecnologia e programação</p>
+
+
+      <a href="#projetos" class="btn">Ver Projetos </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou um desenvolvedor web com experiência em HTML, CSS, JavaScript e frameworks modernos. Estou sempre em busca de aprender novas tecnologias e criar soluções criativas.</p>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Descrição do projeto 1.</p>
+        <a href="#" target="_blank">Ver mais</a>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Descrição do projeto 2.</p>
+        <a href="#" target="_blank">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form onsubmit="enviarFormulario(event)">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagemEnviada" class="mensagem-sucesso"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ana Carolina Muniz - anamunizcarolina@gmail.com -- Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
