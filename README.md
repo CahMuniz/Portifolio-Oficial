@@ -1,4 +1,4 @@
-# Ana Carolina - Desenvolvedora Full Stack em formação
+# Carolina Muniz - Desenvolvedora Full Stack em formação
 
 Olá! Meu nome é **Ana Carolina**, tenho 20 anos e sou apaixonada por tecnologia e inovação. Atualmente curso o 4º semestre de Análise e Desenvolvimento de Sistemas, com foco em me tornar uma desenvolvedora Full Stack.
 
