@@ -1,54 +1,81 @@
-# 👩‍💻 Portfólio Técnico - Ana Carolina
+# Ana Carolina - Desenvolvedora Full Stack em formação
 
-> Desenvolvedora Full Stack em formação | Apaixonada por tecnologia acessível | 4º semestre de Análise e Desenvolvimento de Sistemas
-
----
-
-## 🧠 Sobre Mim
-
-Olá! Sou **Ana Carolina**, tenho 20 anos e estou em constante evolução no mundo da programação. Meu foco é aprender e aplicar tecnologias que possam impactar positivamente pessoas e negócios.
-
-Aqui você encontrará os principais projetos que desenvolvi até agora, com explicações técnicas, exemplos de código e instruções de uso — tudo com muita dedicação e vontade de crescer.
+Olá! Meu nome é **Ana Carolina**, tenho 20 anos e sou apaixonada por tecnologia e inovação. Atualmente curso o 4º semestre de Análise e Desenvolvimento de Sistemas, com foco em me tornar uma desenvolvedora Full Stack.
 
 ---
 
-## 📌 Índice de Projetos
+## 🚀 Tecnologias e Linguagens
 
-1. [🚗 Carrinho com Arduino](#1-carrinho-com-arduino)
-2. [📋 Sistema de Tarefas em Java](#2-sistema-de-tarefas-em-java)
-3. [🌐 Site Pessoal com HTML/CSS/JS](#3-site-pessoal-com-htmlcssjs)
-4. [📊 Dashboard com SQL + Power BI](#4-dashboard-com-sql--power-bi)
+Tenho experiência e conhecimento prático em diversas tecnologias que utilizo para criar soluções eficientes e funcionais:
+
+| Linguagem / Tecnologia  | Uso e Experiência                                                 |
+|------------------------|------------------------------------------------------------------|
+| **Java**               | Desenvolvimento de aplicações desktop com interface Swing; programação orientada a objetos; uso de IntelliJ e VS Code. |
+| **Python**             | Automação, análise de dados, scripts e introdução a machine learning. |
+| **JavaScript**         | Desenvolvimento web interativo: manipulação do DOM, APIs, front-end com React em estudo. |
+| **HTML5 & CSS3**       | Criação de layouts responsivos e design moderno para páginas web. |
+| **SQL (PostgreSQL, MySQL)** | Modelagem, consultas e administração de bancos de dados relacionais. |
+| **C#**                 | Desenvolvimento de aplicações, estudo de padrões e boas práticas. |
+| **TypeScript**         | Superset do JavaScript para aplicações mais seguras e escaláveis (em desenvolvimento). |
+| **Arduino**            | Protótipos eletrônicos com Tinkercad e hardware real; projetos com sensores e atuadores. |
+| **Power BI**           | Criação de dashboards e análise estratégica de dados. |
+| **AWS, DevOps, FinOps**| Em estudo para aprimorar deploy, infraestrutura e custo-benefício na nuvem. |
 
 ---
 
-## 1. 🚗 Carrinho com Arduino
+## 🛠️ Ferramentas
 
-### 🔧 Descrição
-Protótipo de carrinho automatizado com sensor de umidade ou distância. Desenvolvido no Tinkercad e também em hardware real com Arduino Uno.
+- Visual Studio Code  
+- IntelliJ IDEA  
+- JCreator  
+- Sublime Text  
+- Git e GitHub  
+- Terminal / Bash / CMD
 
-### 🛠️ Tecnologias
-- Arduino Uno
-- C/C++ (linguagem)
-- Tinkercad (simulação)
-- Protoboard, sensores, motores
+---
 
-### 💡 Código de exemplo
+## 📚 Formação Técnica
 
-```cpp
-int motor = 3;
-int sensorUmidade = A0;
+**Técnico em Manutenção e Suporte**  
+SENAI Horto (10/2021 - 04/2023)  
+- Montagem e manutenção de computadores  
+- Configuração de redes, impressoras e máquinas virtuais  
+- Administração Windows Server  
+- Diagnóstico e resolução ágil de problemas técnicos
 
-void loop() {
-  int umidade = analogRead(sensorUmidade);
-  if (umidade < 500) {
-    digitalWrite(motor, HIGH);
-  } else {
-    digitalWrite(motor, LOW);
-  }
-}
+---
+
+## 💻 Projetos Destacados
+
+### Arduino  
+Desenvolvimento de sistemas automatizados como carrinhos controlados e regadores automáticos com sensor de umidade. Uso do Tinkercad para simulação e programação de hardware.
+
+### Aplicações em Java  
+Criação de programas desktop com interface gráfica, aplicando POO e boas práticas de programação.
+
+### Desenvolvimento Web  
+Criação de sites responsivos com HTML, CSS e JavaScript, com foco na experiência do usuário e usabilidade.
+
+### Banco de Dados e BI  
+Modelagem e manutenção de bancos relacionais, consultas otimizadas em SQL e criação de dashboards interativos no Power BI para apoio à decisão.
+
+---
+
+## 🎯 Objetivos Futuros
+
+- Avançar no desenvolvimento com React e Node.js  
+- Explorar computação em nuvem (AWS)  
+- Aprimorar conhecimentos em Machine Learning e Inteligência Artificial  
+- Aplicar práticas DevOps e FinOps em projetos reais
+
+---
+
+## 📫 Contato
+
+Estou aberta a parcerias, projetos e oportunidades. Vamos conversar!
 
 - GitHub: [https://github.com/CahMuniz]  
-- LinkedIn: [https://br.linkedin.com/in/ana-carolina-muniz-soares-939669279/pt]  
+- LinkedIn: [https://www.linkedin.com/in/ana-carolina-muniz-soares-939669279/?locale=pt_BR]  
 - E-mail: [anamunizcarolina@gmail.com]
 
 ---
