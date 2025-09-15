@@ -46,10 +46,14 @@ nav {
 }
 
 .hero {
-  padding: 80px 40px;
-  background: #f63bbe;
+  padding: 40px 40px;
+  background-image: url('img/rosa.gif');
   color: white;
   text-align: center;
+
+  background-repeat: repeat;   /* evita repetição */
+  background-position: center;    /* centraliza */
+  background-size: 2000px 2000px;   /* largura 500px x altura 300px */
 }
 
 .hero-content h2 {
@@ -57,7 +61,7 @@ nav {
 }
 
 .destaque {
-  color: #ff0037;
+  color: #f81546;
 }
 
 .btn {
@@ -166,3 +170,47 @@ footer {
     gap: 10px;
   }
 }
+
+.sobre-mim {
+  padding: 40px;
+  background: #fdfdfd;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.sobre-mim h2 {
+  font-size: 30px;
+  color: #5a2d82;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sobre-mim h3 {
+  margin-top: 25px;
+  color: #333;
+  font-size: 20px;
+  border-left: 5px solid #c47dff;
+  padding-left: 10px;
+}
+
+.sobre-mim p, 
+.sobre-mim li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+.sobre-mim ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sobre-mim ul li::before {
+  content: "✔ ";
+  color: #5a2d82;
+}
+
+
