@@ -60,3 +60,24 @@ function type() {
 }
 
 type();
+
+// Puxa os dados do JSON e mostra no site
+fetch("data.json")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("nome").textContent = data.nome;
+    document.getElementById("profissao").textContent = data.profissao;
+    document.getElementById("sobre").textContent = data.sobre;
+
+    const lista = document.getElementById("lista-projetos");
+    data.projetos.forEach(proj => {
+      const div = document.createElement("div");
+      div.className = "projeto";
+      div.innerHTML = `<h3>${proj.titulo}</h3><p>${proj.descricao}</p>`;
+      lista.appendChild(div);
+    });
+
+    document.getElementById("email").textContent = data.contato.email;
+    document.getElementById("linkedin").href = data.contato.linkedin;
+    document.getElementById("github").href = data.contato.github;
+  });

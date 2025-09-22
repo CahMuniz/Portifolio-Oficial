@@ -46,8 +46,8 @@ nav {
 }
 
 .hero {
-  padding: 40px 40px;
-  background-image: url('img/rosa.gif');
+  padding: 50px 50px;
+  background-image: url('img/rosa2.png');
   color: white;
   text-align: center;
 
@@ -213,4 +213,17 @@ footer {
   color: #5a2d82;
 }
 
+.pessoa {
+  display: flex;
+  align-items: center;   /* Alinha verticalmente */
+  margin-bottom: 20px;
+  float: center;
+}
 
+.pessoa img {
+  width: 100px;         /* Ajusta o tamanho da foto */
+  height: 100px;
+  border-radius: 50%;   /* Deixa redonda se quiser */
+  display: block;       /* Faz a imagem se comportar como bloco */
+  margin: 0 auto;       /* Centraliza horizontalmente */
+}

@@ -1,0 +1,24 @@
+{
+  "nome": "Ana Carolina",
+  "profissao": "Desenvolvedora & Estudante de ADS",
+  "sobre": "Sou apaixonada por tecnologia, ensino e programação. Atualmente faço faculdade de ADS e trabalho como professora.",
+  "projetos": [
+    {
+      "titulo": "Site de Mobilidade",
+      "descricao": "Projeto acadêmico para resolver problemas de mobilidade urbana usando tecnologia."
+    },
+    {
+      "titulo": "Calculadora em Python",
+      "descricao": "Uma calculadora simples criada para praticar lógica de programação."
+    },
+    {
+      "titulo": "Gerador de Senhas",
+      "descricao": "Projeto em Python para gerar senhas seguras automaticamente."
+    }
+  ],
+  "contato": {
+    "email": "anamunizcarolina@gmail.com",
+    "linkedin": "http://linkedin.com/in/ana-carolina-muniz-soares-939669279/",
+    "github": "https://github.com/CahMuniz"
+  }
+}
